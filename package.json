@@ -1,0 +1,23 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "A node project must have a package.json...\r You can create one manually, but the easiest way to\r add one to your project is to run the command 'npm init'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenntress/intro-to-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenntress/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/jenntress/intro-to-node#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
